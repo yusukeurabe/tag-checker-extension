@@ -1,0 +1,5 @@
+{
+  "extName": { "message": "Ad Tag Checker" },
+  "extShortName": { "message": "Tag Checker" },
+  "extDesc": { "message": "See which ad and analytics tags (GTM, GA4, Google Ads, Meta, Yahoo!, LINE and more) fire on the current page, and whether click IDs survive redirects." }
+}

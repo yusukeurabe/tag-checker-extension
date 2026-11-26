@@ -1,0 +1,5 @@
+{
+  "extName": { "message": "広告タグチェッカー" },
+  "extShortName": { "message": "タグチェッカー" },
+  "extDesc": { "message": "表示中のページで、GTM・GA4・Google広告・Meta・Yahoo!・LINEなどの計測タグが発火しているかを一覧で確認。広告クリック用パラメータがリダイレクトで消えていないかもチェックします。" }
+}

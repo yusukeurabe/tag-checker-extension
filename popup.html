@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <title>Ad Tag Checker</title>
+  <script src="theme-init.js"></script>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <img src="icons/icon32.png" alt="" width="20" height="20">
+      <h1 data-i18n="title">Ad Tag Checker</h1>
+    </div>
+    <div class="prefs">
+      <div class="seg" id="langSwitch" role="group">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="ja">日本語</button>
+      </div>
+      <button type="button" class="icon-btn" id="themeBtn"><span class="theme-icon" aria-hidden="true"></span></button>
+    </div>
+  </header>
+
+  <div class="page" id="page"></div>
+
+  <main id="main"></main>
+
+  <footer class="bottom">
+    <button type="button" class="btn" id="btnReload" data-i18n="reload"></button>
+    <button type="button" class="btn" id="btnCopy" data-i18n="copy"></button>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="vendors.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
